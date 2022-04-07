@@ -1,13 +1,503 @@
-body {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@500&family=Poppins:wght@200;300;400;500;600&family=Work+Sans:wght@300&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  padding: 0%;
+  margin: 0%;
+ margin: 0 auto;
+ background-color:#0f172a;
+
+  box-sizing: border-box ;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    scroll-behavior:smooth;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color:#feffff;
+  transition: .2s;
+  
+}
+a:hover{
+  color: #20908a;
+  transform:translateY(-5px);
+}
+ul{
+  display: flex;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+  font-size: 30px;
+  font-weight: 400;
+  padding:0 10px;
+  cursor:pointer;
+}
+.main{
+  width: 92%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color:#0f172a;
+}
+.header{
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #25355b;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  justify-content: space-between;
+}
+.nav-col{
+  background-color:transparent;
+}
+.name{
+ font-size: 35px;
+ font-family: 'Dancing Script', cursive;
+ font-weight: 600;
+ margin-left: 40px;
+ color:#20908a;
+}
+.name span{
+  color: #ffffff;
+}
+.nav-text{
+  margin-right: 40px;
+}
+.side-Bar{
+  display: none;
+}
+.content-page{
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.profile-info{
+  margin:10px;
+  margin-top: 120px;
+}
+.profile-info>p{
+  color: #14b4ac;
+  font-size: 20px;
+}
+.profile-info>h1{
+  font-size: 75px;
+  color: #ffffff;
+  letter-spacing: 10px;
+  margin: 0%;
+}
+.profile-info>h2{
+  font-size: 70px;
+  color: #dfdfdf;
+  margin: 0%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+
+.role{
+  position: relative;
+  height: 80px;
+    display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  color: #20908a;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  
+}
+.icon{
+  position: fixed;
+  bottom: 0;
+  left: 1px;
+}
+.icon>ul{
+  flex-direction: column;
+}
+.email{
+  position:fixed;
+  width: 80px;
+  bottom: 0px;
+  right: 1px;
+  
+}
+.email .right-line{
+  content: "";
+  width: 1px;
+  height: 40px;
+  background-color: #ffffff;
+  margin-left: 37px;
+}
+.email>a{
+  color: white;
+  display: flex;
+  transform: rotate(90deg);
+  margin-bottom: 220px;
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+
+.email>a:hover{
+ color: #20908a;
+}
+.left-line{
+  content: "";
+  width: 1px;
+  height: 200px;
+  background-color: #ffffff;
+  margin-left: 57px;
+}
+.btn{
+  padding: 10px 20px;
+  color: #14b4ac;
+  margin: 10px 10px;
+  font-size: 17px;
+  background-color: #0f172a;
+  border: none;
+  border: 2px solid #20908a;
+  cursor: pointer;
+  transition: .3s;
+}
+.active{
+  color: white;
+  background-color: #429f9b;
+}
+.btn:hover{
+  color: white;
+  background-color: #429f9a;
+}
+
+.about{
+  margin-top: 200px;
+  padding-bottom: 200px;
+}
+.title{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  
+}
+.title>h1{
+  color: #14b4ac;
+}
+.title .title-line{
+  content: "";
+  width: 500px;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 10px 0 0 10px;
+}
+
+.about-detail{
+margin-top: 30px;
+
+display: flex;
+flex-direction: row;
+}
+
+.about-detail .text{
+color: #b8b8b8;
+flex-basis: 60%;
+font-size: 15px;
+letter-spacing: 1px;
+}
+.pic{
+  margin-left: 20px;
+}
+.pic>img{
+  width: 300px;
+  border-radius: 10px;
+
+
+}
+
+.skills{
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .m-title{
+  color: #b8b8b8;
+  font-size: 20px;
+  text-align: center;
+}
+.skills .c-title{
+  color: #14b4ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-title::before{
+  content: "";
+  display: flex;
+  width: 200px;
+  height: .5px;
+  background-color: white;
+  margin: 10px;
+}
+.c-title::after{
+  content: "";
+  display: flex;
+  width: 200px;
+  height: .5px;
+  background-color: white;
+  margin: 10px;
+
+}
+.skill-body .skill-item>img{
+  width: 150px;
+  height: 150px;
+  padding: 20px 20px 0px 20px;
+}
+.skill-body{
+ display:flex;
+ flex-wrap: wrap;
+ padding-top: 20px;
+ align-items:center;
+ justify-content: center;
+}
+.skill-body .skill-item{
+  display: flex;
+  flex-direction: column;
+  color: #14b4ac;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
+.projects{
+  padding-bottom: 200px;
+}
+
+.projects-cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+ 
+}
+
+.projects-cards .card{
+  width: 280px;
+  color: #fbfbfb;
+  -webkit-backdrop-filter: blur(8px);
+backdrop-filter: blur(8px);
+box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);
+padding: 10px 10px 10px 15px;
+letter-spacing: 1px;
+cursor:context-menu;
+border-radius: 20px;
+margin: 20px;
+transition: .3s;
+}
+.card .card-footer{
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-footer>a{
+ font-size: 15px;
+ padding: 5px 5px;
+}
+.card:hover{
+ transform: scale(1.1);
+}
+.card-body{
+ 
+}
+.card-head{
+  color: #14b4ac;
+}
+.card-body>span{
+  color: #14b4ac;
+}
+.card .tech{
+  color: #14b4ac;
+  font-size: 12px;
+}
+.contact{
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .title{
+  color: #429f9a;
+  display: flex;
+  font-size: 70px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  
+}
+.contact>a{
+  padding: 10px 20px;
+  border: 1px solid #14b4ac;
+  margin-top: 90px ;
+}
+
+.contact>p{
+  color: #b8b8b8;
+  width: 550px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.footer{
+  color: #b8b8b8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+
+}
+.footer-icon{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+  body{
+    width: 100%;
+  }
+  .nav-text{
+    display: none;
+  }
+  /* .nav-icon{
+    display: none;
+  } */
+  .side-Bar{
+    display: flex;
+    font-size: 29px;
+  font-weight: 400;
+  color: #20908a;
+  margin-right: 30px;
+  }
+  .canvas{
+    position: fixed;
+    width:100%;
+    height: 50vh;
+    top:0;
+    z-index: 20;
+    background-color: #429f9a;
+  }
+  .close-btn{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    color: white;
+    font-size: 30px;
+  }
+  .side-bar-nav ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    
+    
+  }
+  .side-bar-nav li{
+    padding: 10px;
+    padding-right: 80px;
+    text-align: center;
+  }
+  .side-bar-nav a{
+    color: white;
+    font-size: 30px;
+  }
+  .content-page{
+    width: 90%;
+  }
+ 
+  .role{
+    font-size: 25px;
+  }
+  .profile-info{
+    margin-top: 130px;
+  }
+  .profile-info>h1{
+    font-size: 50px;
+    color: #feffff;
+    letter-spacing: 10px;
+    margin: 0%;
+    padding-bottom: 20px;
+  }
+  .profile-info>h2{
+    font-size: 30px;
+    color: #c7c7c7;
+    margin: 0%;
+    padding-bottom: 30px;
+  }
+  .icon, .email{
+    display: none;
+  }
+  
+  .skill-body .skill-item>img{
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px 0px 20px;
+  }
+  .about-detail{
+    margin-top: 30px;
+    display: flex;
+    flex-direction:column;
+    }
+    .c-title::before{
+      content: "";
+      display: flex;
+      width: 100px;
+      height: .5px;
+      background-color: white;
+      margin: 10px;
+    }
+    .c-title::after{
+      content: "";
+      display: flex;
+      width: 100px;
+      height: .5px;
+      background-color: white;
+      margin: 10px;
+    
+    }
+   
+    .contact .title{
+      font-size: 40px;
+    }
+    .contact>p{
+      width: 300px;
+    }
+    .footer-icon{
+      display: flex;
+    }
+    .footer-icon>a{
+      margin: 0 10px;
+    }
+    .pic{
+      display: none;
+    }
+  
 }
