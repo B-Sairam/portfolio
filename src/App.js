@@ -61,10 +61,10 @@ function App() {
       <div className="profile-info" id="home">
        <p>Hai, my name is</p>
        <h1>SAIRAM. </h1>
-       <h2>I build things for the<br></br> web</h2>
+       <h2>I build things for the web</h2>
        <div className="role"> 
        <i class="fa-solid fa-chevron-left"></i> <ReactTypical
-          steps={['Full-Stack Developer', 1500, 'MERN Stack Developer', 1500,'JavaScript Developer',1500]}
+          steps={['Full-Stack Developer', 2000, 'MERN Stack Developer', 2000,'JavaScript Developer',2000]}
           loop={Infinity}
           wrapper="p"
         />/<i class="fa-solid fa-chevron-right"></i>
@@ -84,14 +84,14 @@ function App() {
           <div className="about-detail">
             <div className="text">
               Hello! My name is Sairam and I'm currently doing Engineering in
-              B.Tech (Information Technology) 3<sup>rd</sup> year. My interest in web development started during in 2<sup>nd</sup> year,
-              In my college when I try some basic HTML ke forms , buttons  I enjoyed that the output
+              B.Tech (Information Technology) 3<sup>rd</sup> year. My interest in web development was started during in 2<sup>nd</sup> year,
+              In my college when I try some basic HTML like forms , buttons  I enjoyed that the output
               comes in web browser it's really impressed me!
               <br></br>
               <br></br>
               Then I watchs some youtube tutorial vidoes to learn HTML,CSS & JavaScript 
               and I started making some websites. After that I need to improve my skill so, I joined GUVI to learn
-              Full-stack web Development (MERN) .That turns out me to become a web developer.
+              Full-stack web Development (MERN) .That turns out me to become a <span>Full-Stack Web Developer</span>.
               <br></br> <br></br>
               Now, I started making Full-stack project ke (Real time chating App , Movie booking APP , Food Devery App).
             </div>
@@ -128,7 +128,7 @@ function App() {
               <h3 className="card-head">
                 Chat Appcation
               </h3>
-              <p className="card-body">This is Real-time chating web appcation ke what's app build with MERN Stack
+              <p className="card-body">This is Real-time chating web appcation like what's app build with MERN Stack
                 It's include feature ke one-on-one chat and Group chat.
                <span> Using Socket.io</span> for the Real Time experience</p>
                 <span className="tech">React js Node js Express js MongoDB</span>
@@ -142,50 +142,50 @@ function App() {
             </div>
             <div className="card">
               <h3 className="card-head">
-                Chat Appcation
+                Web Scraping App
               </h3>
-              <p className="card-body">This is Real-time chating web appcation ke what's app build with MERN Stack
-                It's include feature ke one-on-one chat and Group chat.
-               <span> Using Socket.io</span> for the Real Time experience</p>
+              <p className="card-body">This Project is a Web Scraping web appcation Like cashKaro,etc. Build with MERN Stack,
+               Datas are Scraping from other website like <span>Amazon showing there Products</span> in the website.
+               </p>
                 <span className="tech">React js Node js Express js MongoDB</span>
                 <div className="card-footer">
                
-                  <a href="https://github.com/B-Sairam/tin-front-end" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>
-                  <a href="https://github.com/B-Sairam/Tin-backend" target="_blank" rel="noreferrer">back-end <i class="fa-brands fa-github"></i></a>
+                  <a href="https://github.com/B-Sairam/webScrapping-Ecommerce-frontEnd" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>
+                  <a href="https://github.com/B-Sairam/webScrapping-Ecommerce-backend" target="_blank" rel="noreferrer">back-end <i class="fa-brands fa-github"></i></a>
                  
-                  <a href="https://sad-wozniak-0da6ab.netfy.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a href="https://practical-almeida-ce1025.netlify.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div className="card">
               <h3 className="card-head">
-                Chat Appcation
+                Movie Booking Application
               </h3>
-              <p className="card-body">This is Real-time chating web appcation ke what's app build with MERN Stack
-                It's include feature ke one-on-one chat and Group chat.
-               <span> Using Socket.io</span> for the Real Time experience</p>
-                <span className="tech">React js Node js Express js MongoDB</span>
+              <p className="card-body">This is Movie tickets booking web application like Bookmyshow
+              ,Built with MERN Stack.Fetching the data from MongoDB and some features like<span> booking
+              functionality </span>are added in this App.
+              </p>
+                <span className="tech">React js Node js Express js MongoDB </span>
                 <div className="card-footer">
                
-                  <a href="https://github.com/B-Sairam/tin-front-end" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>
-                  <a href="https://github.com/B-Sairam/Tin-backend" target="_blank" rel="noreferrer">back-end <i class="fa-brands fa-github"></i></a>
+                  <a href="https://github.com/B-Sairam/Movie-Booking-front-end" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>
+                  <a href="https://github.com/B-Sairam/MovieBooking-Backend " target="_blank" rel="noreferrer">back-end <i class="fa-brands fa-github"></i></a>
                  
-                  <a href="https://sad-wozniak-0da6ab.netfy.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a href="https://6257f35e03c19600081b14ae--sweet-moxie-142b72.netlify.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div className="card">
               <h3 className="card-head">
-                Chat Appcation
+                TODO Web App
               </h3>
-              <p className="card-body">This is Real-time chating web appcation ke what's app build with MERN Stack
-                It's include feature ke one-on-one chat and Group chat.
-               <span> Using Socket.io</span> for the Real Time experience</p>
-                <span className="tech">React js Node js Express js MongoDB</span>
+              <p className="card-body">This is TODO Web App to note and alert our future tasks.
+              some features are added like Add Task, Completed Task to enhance the 
+              functionality, <span>Built for Mobile</span> view.
+               </p>
+                <span className="tech">React js Boostrap</span>
                 <div className="card-footer">
                
-                  <a href="https://github.com/B-Sairam/tin-front-end" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>
-                  <a href="https://github.com/B-Sairam/Tin-backend" target="_blank"rel="noreferrer">back-end <i class="fa-brands fa-github"></i></a>
-                 
-                  <a href="https://sad-wozniak-0da6ab.netfy.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a href="https://github.com/B-Sairam/TODO" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>                 
+                  <a href="https://elated-gates-c177f2.netlify.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
           </div>
@@ -206,7 +206,7 @@ function App() {
         <a href="https://github.com/B-Sairam"><i class="fa-brands fa-linkedin-in"></i></a>
          <a href="https://github.com/B-Sairam"><i class="fa-brands fa-twitter"></i></a>
         </div>
-        <p>Desiged & Built by Sairam</p>
+        <p>Design & Built by Sairam</p>
         <span>	&copy; Sairam 2022</span>
       </div>
     </div>

@@ -387,6 +387,9 @@ transition: .3s;
   .nav-text{
     display: none;
   }
+  .btn{
+    padding: 10px 16px;
+  }
   /* .nav-icon{
     display: none;
   } */
@@ -430,7 +433,7 @@ transition: .3s;
     font-size: 30px;
   }
   .content-page{
-    width: 90%;
+    width: 100%;
   }
  
   .role{
