@@ -126,7 +126,7 @@ function App() {
           <div className="projects-cards">
             <div className="card">
               <h3 className="card-head">
-                Chat Appcation
+                Chat Application
               </h3>
               <p className="card-body">This is Real-time chating web appcation like what's app build with MERN Stack
                 It's include feature ke one-on-one chat and Group chat.
