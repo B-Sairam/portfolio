@@ -145,7 +145,7 @@ function App() {
                 Web Scraping App
               </h3>
               <p className="card-body">This Project is a Web Scraping web appcation Like cashKaro,etc. Build with MERN Stack,
-               Datas are Scraping from other website like <span>Amazon showing there Products</span> in the website.
+               Datas are Scraping from other website like <span>Amazon </span> showing there Products in the website.
                </p>
                 <span className="tech">React js Node js Express js MongoDB</span>
                 <div className="card-footer">
