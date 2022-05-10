@@ -48,7 +48,7 @@ function App() {
         <ul>
           <li><a href="https://github.com/B-Sairam"><i class="fa-brands fa-github"></i></a></li>
          <li><a href="https://www.linkedin.com/in/sai-ram-65b43b203/"><i class="fa-brands fa-linkedin-in"></i></a></li> 
-         <li><a href="https://github.com/B-Sairam"><i class="fa-brands fa-twitter"></i></a></li>
+       
         </ul>
         <div className="left-line"></div>
       </div>
@@ -71,7 +71,7 @@ function App() {
         </div>
        
       <div>
-       <a href="https://drive.google.com/file/d/1ROBArA77kYc8ECj4td5PUdGcjhlNnbkX/view?usp=sharing" target="_blank" rel="noreferrer"> <button className="btn">Get Resume</button></a>
+       <a href="https://drive.google.com/file/d/1L47PRLKvCs1mopHrG_wR_O0RDs_dqC07/view?usp=sharing" target="_blank" rel="noreferrer"> <button className="btn">Get Resume</button></a>
         <a href="#contact"><button className="btn active">Contact</button></a>
       </div>
       </div>
@@ -137,7 +137,7 @@ function App() {
                   <a href="https://github.com/B-Sairam/tin-front-end" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>
                   <a href="https://github.com/B-Sairam/Tin-backend" target="_blank"rel="noreferrer">back-end <i class="fa-brands fa-github"></i></a>
                  
-                  <a href="https://sad-wozniak-0da6ab.netfy.app/" target="_blank"rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a href="https://sad-wozniak-0da6ab.netlify.app/" target="_blank"rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div className="card">
@@ -175,17 +175,20 @@ function App() {
             </div>
             <div className="card">
               <h3 className="card-head">
-                TODO Web App
+                Item catalog
               </h3>
-              <p className="card-body">This is TODO Web App to note and alert our future tasks.
-              some features are added like Add Task, Completed Task to enhance the 
-              functionality, <span>Built for Mobile</span> view.
+              <p className="card-body">This is e-commerse website developed with ReactJs,
+                  MongoDB NodeJs, Express Js and Frameworks like
+                  Boostrap Js. This website have two users admin/customers
+                  and JWT Integretion.
                </p>
-                <span className="tech">React js Boostrap</span>
+                <span className="tech">React js Node js Express js MongoDB </span>
                 <div className="card-footer">
                
-                  <a href="https://github.com/B-Sairam/TODO" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>                 
-                  <a href="https://elated-gates-c177f2.netlify.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a href="https://github.com/B-Sairam/item-catalog-frontend1" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>
+                  <a href="https://github.com/B-Sairam/item-catalog-backend" target="_blank" rel="noreferrer">back-end <i class="fa-brands fa-github"></i></a>
+                 
+                  <a href="https://627a4dbfb5a19c01c9b4aeca--euphonious-capybara-839acc.netlify.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
           </div>
