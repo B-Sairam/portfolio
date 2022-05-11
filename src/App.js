@@ -9,6 +9,7 @@ import img6 from './icons/mongodb.png';
 function App() {
   const [show, setShow]= useState(false);
   const [showBar,setShowBar]=useState(false);
+  const [showMessage,setshowMessage]=useState(false);
   const controlNav=()=>{
     if(window.scrollY>100){
       setShowBar(false)
@@ -200,7 +201,50 @@ function App() {
           </div>
           <p>I'm currently looking for job and project,my inbox is always open. Whether you have a question or just want to say hi,
              I’ll try my best to get back to you!</p>
-     <a class="email-nk" href="mailto:bbsairam77@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
+             <div class="row">  
+                <div class="contact-col">
+                   <div>
+                       <i class="fa fa-home"></i>
+                       <span>
+                           <h5>5/23 dr.ambedkar street</h5>
+                           <p>Perumbakkam, Chennai, IN</p>
+                     </span>
+                   </div>
+                   <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 8248947450</h5>
+                        <p>Monday to Saturday,10AM to 8PM</p>
+                  </span>
+                </div>
+                <div>
+                <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>bbsairam77@gmail.com</h5>
+                        <p>Mail me to get in touch</p>
+                  </span>
+                </div>
+                   
+                </div>
+                <div class="contact-col2">
+                    <form action="" method="POST">
+                    <input type="text" name="name" placeholder="Enter Your Name" required />
+                        <input type="text" name="email" placeholder="Enter your Email Adderss" required />
+                        <textarea rows="5" name="message" placeholder="Message"></textarea>
+                        {
+                          showMessage?<p style={{paddingLeft:"20px",color:"whitesmoke"}}>Message sent</p>:""
+                        }
+                        <button class="contact-btn" onClick={()=>{
+                          setshowMessage(true);
+                          setTimeout(() => {
+                            setshowMessage(false);
+                          }, 3000);
+                        }}>Send Message</button>
+                    </form>
+        
+                </div>
+              
+            </div>
 
       </div>
       <div className="footer">
