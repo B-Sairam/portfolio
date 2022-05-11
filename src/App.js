@@ -214,7 +214,7 @@ function App() {
                     <i class="fa fa-phone"></i>
                     <span>
                         <h5>+91 8248947450</h5>
-                        <p>Monday to Saturday,10AM to 8PM</p>
+                        <p>Weekdays,10AM to 8PM</p>
                   </span>
                 </div>
                 <div>
