@@ -171,7 +171,7 @@ function App() {
                   <a href="https://github.com/B-Sairam/Movie-Booking-front-end" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>
                   <a href="https://github.com/B-Sairam/MovieBooking-Backend " target="_blank" rel="noreferrer">back-end <i class="fa-brands fa-github"></i></a>
                  
-                  <a href="https://6257f35e03c19600081b14ae--sweet-moxie-142b72.netlify.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a href="https://sweet-moxie-142b72.netlify.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div className="card">
@@ -189,7 +189,7 @@ function App() {
                   <a href="https://github.com/B-Sairam/item-catalog-frontend1" target="_blank" rel="noreferrer">Front-end <i class="fa-brands fa-github"></i></a>
                   <a href="https://github.com/B-Sairam/item-catalog-backend" target="_blank" rel="noreferrer">back-end <i class="fa-brands fa-github"></i></a>
                  
-                  <a href="https://627a4dbfb5a19c01c9b4aeca--euphonious-capybara-839acc.netlify.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  <a href="https://euphonious-capybara-839acc.netlify.app/" target="_blank" rel="noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
           </div>
