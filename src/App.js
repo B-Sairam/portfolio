@@ -227,7 +227,7 @@ function App() {
                    
                 </div>
                 <div class="contact-col2">
-                    <form action="" method="POST">
+                    <form action="/">
                     <input type="text" name="name" placeholder="Enter Your Name" required />
                         <input type="text" name="email" placeholder="Enter your Email Adderss" required />
                         <textarea rows="5" name="message" placeholder="Message"></textarea>
