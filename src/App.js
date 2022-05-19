@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { ReactTypical } from '@deadcoder0904/react-typical';
+// import { ReactTypical } from '@deadcoder0904/react-typical';
+import Typewriter from 'typewriter-effect';
 import img1 from './icons/js.png';
 import img2 from './icons/boostrap.png';
 import img3 from './icons/logo192.png';
@@ -64,15 +65,22 @@ function App() {
        <h1>SAIRAM. </h1>
        <h2>I build things for the web</h2>
        <div className="role"> 
-       <i class="fa-solid fa-chevron-left"></i> <ReactTypical
-          steps={['Full-Stack Developer', 2000, 'MERN Stack Developer', 2000,'JavaScript Developer',2000]}
+       {/* <ReactTypical
+          steps={['', 2000, '', 2000,'',2000]}
           loop={Infinity}
           wrapper="p"
-        />/<i class="fa-solid fa-chevron-right"></i>
+        /> */}
+        <Typewriter
+         options={{
+          strings: ['Full-Stack Developer', 'MERN Stack Developer','JavaScript Developer'],
+          autoStart: true,
+          loop: true,
+        }}
+        />
         </div>
        
       <div>
-       <a href="https://drive.google.com/file/d/1L47PRLKvCs1mopHrG_wR_O0RDs_dqC07/view?usp=sharing" target="_blank" rel="noreferrer"> <button className="btn">Get Resume</button></a>
+       <a href="https://drive.google.com/file/d/1_Hq6721RxIhzbSVajc7bclcwuoG7PJ3l/view?usp=sharing" target="_blank" rel="noreferrer"> <button className="btn">Get Resume</button></a>
         <a href="#contact"><button className="btn active">Contact</button></a>
       </div>
       </div>
