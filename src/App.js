@@ -102,7 +102,7 @@ function App() {
               and I started making some websites. After that I need to improve my skill so, I joined GUVI to learn
               Full-stack web Development (MERN) .That turns out me to become a <span>Full-Stack Web Developer</span>.
               <br></br> <br></br>
-              Now, I started making Full-stack project ke (Real time chating App , Movie booking APP , Food Devery App).
+              Now, I started making Full-stack project like (Real time chating App , Movie booking APP , Food Delivery App).
             </div>
             <div className="pic">
               <img src="https://sessionize.com/image/6588-400o400o2-e3-5490-4b05-9eac-5f7859cbbe72.84d8fada-dbbf-4b2c-8a01-4bee779ae257.jpg" alt="profile"/>
@@ -184,12 +184,12 @@ function App() {
             </div>
             <div className="card">
               <h3 className="card-head">
-                Item catalog
+                E-commerce Website
               </h3>
-              <p className="card-body">This is e-commerse website developed with ReactJs,
+              <p className="card-body">This is e-commersce website developed with ReactJs,
                   MongoDB NodeJs, Express Js and Frameworks like
                   Boostrap Js. This website have two users admin/customers
-                  and JWT Integretion.
+                  and JWT Integration.
                </p>
                 <span className="tech">React js Node js Express js MongoDB </span>
                 <div className="card-footer">
