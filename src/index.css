@@ -30,6 +30,9 @@ a:hover{
 ul{
   display: flex;
 }
+.text{
+  text-align: justify;
+}
 li{
   text-decoration: none;
   list-style: none;
