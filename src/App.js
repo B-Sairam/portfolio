@@ -92,9 +92,9 @@ function App() {
 
           <div className="about-detail">
             <div className="text">
-              Hello! My name is Sairam and I'm currently doing Engineering in
-              B.Tech (Information Technology) 3<sup>rd</sup> year. My interest in web development was started during in 2<sup>nd</sup> year,
-              In my college when I try some basic HTML like forms , buttons  I enjoyed that the output
+              Hello! My name is Sairam and I'm recently done my Engineering in
+              B.Tech (Information Technology) this year. I got Placed myself in a startup in my 3rd year and now working as a Software Developer , My interest in web development was started during in 2<sup>nd</sup> year,
+              In my college when I try some basic HTML like forms , buttons  I enjoyed the output
               comes in web browser it's really impressed me!
               <br></br>
               <br></br>
