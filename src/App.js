@@ -259,7 +259,7 @@ function App() {
       <div className="footer">
         <div className="footer-icon">
         <a href="https://github.com/B-Sairam"><i class="fa-brands fa-github"></i></a>
-        <a href="https://github.com/B-Sairam"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.linkedin.com/in/sairam-b-65b43b203"><i class="fa-brands fa-linkedin-in"></i></a>
          <a href="https://github.com/B-Sairam"><i class="fa-brands fa-twitter"></i></a>
         </div>
         <p>Design & Built by Sairam</p>
