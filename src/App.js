@@ -80,7 +80,8 @@ function App() {
         </div>
        
       <div>
-       <a href="https://drive.google.com/file/d/1_Hq6721RxIhzbSVajc7bclcwuoG7PJ3l/view?usp=sharing" target="_blank" rel="noreferrer"> <button className="btn">Get Resume</button></a>
+          
+       <a href="https://drive.google.com/file/d/1Xx2mGUwg122OEJsh3bxkjYpTWS-yULKD/view?usp=sharing" target="_blank" rel="noreferrer"> <button className="btn">Get Resume</button></a>
         <a href="#contact"><button className="btn active">Contact</button></a>
       </div>
       </div>
@@ -102,7 +103,7 @@ function App() {
               and I started making some websites. After that I need to improve my skill so, I joined GUVI to learn
               Full-stack web Development (MERN) .That turns out me to become a <span>Full-Stack Web Developer</span>.
               <br></br> <br></br>
-              Now, I started making Full-stack project like (Real time chating App , Movie booking APP , Food Delivery App).
+              Now, I started making Full-stack project like (Real time chating App , Movie booking APP , Food Delivery App, LLM P rojects).
             </div>
             <div className="pic">
               <img src="https://sessionize.com/image/6588-400o400o2-e3-5490-4b05-9eac-5f7859cbbe72.84d8fada-dbbf-4b2c-8a01-4bee779ae257.jpg" alt="profile"/>
@@ -262,7 +263,7 @@ function App() {
          <a href="https://github.com/B-Sairam"><i class="fa-brands fa-twitter"></i></a>
         </div>
         <p>Design & Built by Sairam</p>
-        <span>	&copy; Sairam 2022</span>
+        <span>	&copy; Sairam 2023</span>
       </div>
     </div>
    
